@@ -1,0 +1,16 @@
+TECH ROSTER - Great Lakes Fixture & Part Co. (FICTIONAL SAMPLE DATA FOR HACKATHON DEMO)
+Sterling Heights, Michigan - maintenance team
+
+MAINTENANCE LEAD (escalations, safety issues, parts approval)
+- Maria Santos | Maintenance Lead | Day shift (6 AM - 2:30 PM) | Knows all machines | Contact: Teams message to Maria Santos
+
+TECHNICIANS
+- Dave Kowalski | Senior Maintenance Tech, 31 years at the shop, retiring next year | Day shift (6 AM - 2:30 PM) | Expert on: Mill 3, Mill 1 (Haas mills, spindle drives and belts) | Contact: Teams message to Dave Kowalski
+- Tanya Brooks | Maintenance Tech | Day shift (6 AM - 2:30 PM) | Expert on: Mill 1, Mill 3 (Haas spindle orientation, drive fault codes) | Contact: Teams message to Tanya Brooks
+- Marcus Hill | Maintenance Tech | Second shift (2:30 PM - 11 PM) | Expert on: Press 2 (Dake hydraulic press, pump and valves) | Contact: Teams message to Marcus Hill
+- Aisha Grant | Process Technician | Day shift (6 AM - 2:30 PM) | Expert on: Molder 1 (injection molding settings and defects) | Contact: Teams message to Aisha Grant
+- Luis Ortega | Maintenance Tech, 2nd year apprentice | Second shift (2:30 PM - 11 PM) | Learning: Mill 1, Mill 3 | Contact: Teams message to Luis Ortega
+
+OPERATORS (report breakdowns, may not fix them)
+- Jordan Lee | CNC Operator | Day shift | Runs Mill 3
+- Sam Patel | Press Operator | Day shift | Runs Press 2 and Molder 1

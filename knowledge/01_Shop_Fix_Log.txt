@@ -1,0 +1,41 @@
+SHOP FIX LOG - Great Lakes Fixture & Part Co. (FICTIONAL SAMPLE DATA FOR HACKATHON DEMO)
+Sterling Heights, Michigan - maintenance department repair history
+Each entry: date | machine | alarm or symptom | what fixed it | parts used | minutes to fix | fixed by
+
+MACHINE LIST
+- Mill 3: Haas vertical mill (CNC)
+- Mill 1: Haas vertical mill (CNC)
+- Press 2: Dake 50H hand-operated hydraulic press
+- Molder 1: plastic injection molding machine
+
+=== MILL 3 (Haas vertical mill) ===
+
+2026-03-12 | Mill 3 | Alarm 186 SPINDLE NOT TURNING - spindle would not start when commanded | Fixed by Dave Kowalski. Locked out the machine, opened the electrical cabinet and read the fault code on the spindle drive display. Found the spindle drive belt worn and slipping. Replaced the belt, set belt tension, cleared the alarm, ran the spindle warm-up program with no repeat. | Parts: spindle drive belt | 55 minutes | Dave Kowalski
+
+2026-06-03 | Mill 3 | Alarm 186 SPINDLE NOT TURNING - came back after a heavy cut | Fixed by Dave Kowalski. Locked out, checked the spindle drive fault display. Belt was fine this time. Found the command cable connector at the spindle drive loose. Reseated and secured the connector, power cycled, spindle ran normally. Note from Dave: check the drive display and the belt first, then the cables. | Parts: none | 30 minutes | Dave Kowalski
+
+2026-09-18 | Mill 3 | Alarm 186 SPINDLE NOT TURNING | Fixed by Dave Kowalski. Same as March: worn spindle drive belt. Replaced belt. Dave recommends checking belt condition every 3 months on Mill 3. | Parts: spindle drive belt | 45 minutes | Dave Kowalski
+
+2026-07-22 | Mill 3 | Alarm 123 SPINDLE DRIVE FAULT | Fixed by Tanya Brooks. Read the error code on the spindle drive, followed the Haas guide for that code. Cleared chips and dust from the drive cooling fan, confirmed fan running. No repeat. | Parts: none | 40 minutes | Tanya Brooks
+
+=== MILL 1 (Haas vertical mill) ===
+
+2026-05-09 | Mill 1 | Alarm 116 SPINDLE ORIENTATION FAULT - spindle did not orient for tool change | Fixed by Tanya Brooks. Locked out, inspected orientation ring and shot pin assembly per Haas guide. Shot pin was sticking from coolant residue. Cleaned and checked movement, ran tool changes with no repeat. | Parts: none | 50 minutes | Tanya Brooks
+
+2026-08-14 | Mill 1 | Spindle motor overheat alarm after long roughing job | Fixed by Luis Ortega. Spindle fan was clogged with chips. Cleaned fan and checked cable. Programmer reduced the aggressive cut in that job. | Parts: none | 35 minutes | Luis Ortega
+
+=== PRESS 2 (Dake 50H hydraulic press) ===
+
+2026-04-02 | Press 2 | Press not holding pressure - ram drifts down under load | Fixed by Marcus Hill. Relieved all pressure first. Release valve was not fully closing. Cleaned the release valve seat, tested at working pressure, held steady. | Parts: none | 25 minutes | Marcus Hill
+
+2026-10-07 | Press 2 | Oil leaking around the ram but press still holds pressure | Fixed by Marcus Hill. Per the Dake manual, this means the reservoir was overfilled. Drained oil to the correct level. No more leak. | Parts: none | 20 minutes | Marcus Hill
+
+2026-08-27 | Press 2 | Oil leaking at the hand pump | Fixed by Marcus Hill. Pump packing worn. Replaced pump packing with the Dake repair kit, refilled oil to the correct level. | Parts: pump packing repair kit | 70 minutes | Marcus Hill
+
+=== MOLDER 1 (plastic injection molding machine) ===
+
+2026-02-19 | Molder 1 | Short shots - parts not completely filled | Fixed by Aisha Grant. Material was too cold. Raised barrel temperature in small steps and increased injection speed slightly. Parts filled completely. | Parts: none | 40 minutes | Aisha Grant
+
+2026-06-25 | Molder 1 | Flash on parts - thin extra plastic at the mold parting line | Fixed by Aisha Grant. Injection pressure was too high after a material change. Reduced injection pressure and checked mold faces for debris. Flash stopped. | Parts: none | 35 minutes | Aisha Grant
+
+2026-09-30 | Molder 1 | Sink marks on thick sections | Fixed by Aisha Grant. Increased hold pressure and hold time. Checked mold temperature. Sink marks gone. | Parts: none | 30 minutes | Aisha Grant

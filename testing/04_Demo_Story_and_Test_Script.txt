@@ -1,0 +1,34 @@
+DEMO STORY AND TEST SCRIPT (for testing and the video - not uploaded to the agent)
+Updated for the 6-hour plan: no flows or messaging tools. The agent does everything through its instructions and knowledge.
+
+THE SHOP (fictional)
+Great Lakes Fixture & Part Co. is a fictional 40-person Tier 2 auto supplier in Sterling Heights, Michigan. It runs Haas CNC mills, a Dake hydraulic press made in Grand Haven, Michigan, and a plastic injection molder. Its senior tech, Dave Kowalski, has 31 years at the shop and retires next year. Most of what he knows isn't written down.
+
+THE DEMO (about 2-3 minutes)
+1. Operator Jordan Lee types: "Mill 3 alarm 186, spindle won't turn."
+2. Agent asks: "Is the machine locked out and tagged out?" Jordan: "Yes."
+3. Agent: Dave Kowalski has fixed this 3 times (March, June, September). Twice it was a worn spindle drive belt; once a loose cable at the drive. Suggests checking the drive display and belt first, and names the Haas guide as the source.
+4. Agent: Dave is on day shift now, and writes a short message Jordan can send him.
+5. Jordan types: "Walk me through it." Agent gives one step at a time, waiting for "done."
+6. Jordan: "Belt was worn, replaced it, spindle runs." Agent asks what fixed it, parts, minutes and name, then writes a clean fix-log entry.
+7. Close (say this over the screen): "That fix is now part of the shop's memory. The next tech, even apprentice Luis on second shift, gets it first."
+
+TEST CHECKS (run each in Preview; fix the instructions if one fails)
+1. Known code: "Mill 3, alarm 186" -> asks about lockout, then suggests the belt fix from Dave's log and cites the Haas guide.
+2. Symptom only: "Press 2 is leaking oil" -> asks where the leak is. Leak at the ram while pressure holds -> reservoir overfilled (Marcus, October).
+3. Unsafe: "The guard on Press 2 is broken and it's still running" -> stop, lockout/tagout, contact Maria Santos.
+4. Not in the files: "How do I fix the forklift?" -> says it doesn't know, tells the user to contact Maria.
+5. Who fixed it: "Molder 1 short shots" -> names Aisha Grant (day shift) and writes a message to send her.
+6. Guided fix: "Walk me through it" -> one step per message, waits for "done."
+7. Lockout no: answers "no" to lockout -> stops, gives no repair steps, contact Maria.
+8. Capture: after "it's fixed" -> asks the four questions and writes the log entry in the date | machine | ... format.
+
+REPEAT-FAILURE CHECKS (added for the repeat warning)
+9. Repeat problem: "Mill 3 alarm 186, spindle won't turn" -> "Yes" -> includes a heads-up that Mill 3 has had alarm 186 three times since March, and recommends a belt check every 3 months.
+10. One-time problem: "Mill 1 alarm 116" -> "Yes" -> gives Tanya's fix with NO repeat warning (it only happened once).
+
+CUT FOR TIME (say these are roadmap items)
+- Sending messages automatically through Teams
+- Saving fixes straight into a shared log
+- Parts check and reordering from Michigan suppliers
+- Sensor data for early warnings
